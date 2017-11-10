@@ -37,7 +37,7 @@ Input cropping is done using the ground truth head position.
 
 ## Note
 
-## Keras version
+### Keras version
 If you do not use Keras 1.0.6, scripts will run but thay will not produce the same reults reported in the original paper.
 
 ### Path
