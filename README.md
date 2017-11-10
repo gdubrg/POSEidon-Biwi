@@ -12,8 +12,8 @@ The model has been tested with the following configuration:
 
 ### Dataset
 In order to run the code, it is necessary download the dataset from [here](http://imagelab.ing.unimore.it/pandora/) and following these steps:
-- Create a folder for each run of each subject, naming from the number 000 to 100
-- In each sub folder, a file named angles.txt is required.
+- Create a folder for each run of each subject, naming from the number 01 to 24
+- In each sub folder, a file named *angles.txt* is required, where the first column is the frame number, then the roll, pitch and yaw angles.
 
 ### Train and Test
  The command to train the entwork is
