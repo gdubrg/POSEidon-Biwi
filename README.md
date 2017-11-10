@@ -25,8 +25,8 @@ and to test is
 python3 test.py
 ```
 For both, you must pass the following arguments:
-- ```gpu/cpu``` to run the script on gpu o cpu
-- ```1...n``` to run the script on your *n*-th gpu
+- ```cpu``` or ```gpu0...gpun``` to run the script on cpu or on the *n*-th gpu
+- ```1...n``` quantity of memory allocated in gpu device 
 
 ## Results
 Input cropping is done using the ground truth head position.
