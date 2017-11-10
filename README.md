@@ -24,6 +24,7 @@ and to test is
 ```
 python3 test.py
 ```
+and finally ```plot_error``` to plot the error and some graph. 
 For both, you must pass the following arguments:
 - ```cpu``` or ```gpu0...gpun``` to run the script on cpu or on the *n*-th gpu
 - ```1...n``` quantity of memory allocated in gpu device 
