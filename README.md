@@ -1,4 +1,4 @@
-# POSEidon: face-from-Depth for Driver Pose Estimation
+# POSEidon: Face-from-Depth for Driver Pose Estimation
 Implementation in **Keras** and **Theano** of my paper published in **CVPR 2017** (Borghi G., Venturelli M., Vezzani R., Cucchiara R.).
 
 ## How To
