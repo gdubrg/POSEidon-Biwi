@@ -10,10 +10,11 @@ The model has been tested with the following configuration:
 - Keras 1.0.6
 - Theano
 
-### Dataset
-In order to run the code, it is necessary download the dataset from [here](http://imagelab.ing.unimore.it/pandora/) and following these steps:
+### Dataset (Biwi)
+In order to run the code, it is necessary download the dataset from [here](https://data.vision.ee.ethz.ch/cvl/gfanelli/head_pose/head_forest.html) and following these steps:
 - Create a folder for each run of each subject, naming from the number 01 to 24
 - In each sub folder, a file named *angles.txt* is required, where the first column is the frame number, then the roll, pitch and yaw angles.
+In ```face_dataset``` directory you can find test sequences that we used for the paper.
 
 ### Train and Test
  The command to train the entwork is
