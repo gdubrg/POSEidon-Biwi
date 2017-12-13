@@ -15,9 +15,9 @@ import numpy as np
 
 
 # dataset paths
-path_data_depth = "../../Dataset/BIWI/face_dataset_large/"
-path_data_gray = "../../Dataset/BIWI_GRAY/pred_dataset_Dense/"
-path_data_of = "../../Dataset/BIWI/face_dataset_large_OF_xyam_norm/"
+path_data_depth = "Dataset/BIWI/face_dataset_large/"
+path_data_gray = "Dataset/BIWI_GRAY/face_dataset_ae/"
+path_data_of = "Dataset/BIWI/face_dataset_OF/"
 print("Dataset DEPTH:", path_data_depth)
 print("Dataset GRAY:", path_data_gray)
 print("Dataset OF:", path_data_of)
