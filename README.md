@@ -17,6 +17,12 @@ In order to run the code, it is necessary download the dataset from [here](https
 
 It is necessary create the Motion Images (through the Farnerback algorithm) and the reconstructed grey images from the corresponding depth ones. In the ```Dataset``` directory you can find one test sequence with these types of data. We plan to release the complete dataset in the next future.
 
+<p align="center">
+ <img src="https://github.com/gdubrg/POSEidon-Biwi/blob/master/Dataset/face_dataset_large/11/frame_00003_face_depth.png" width="100" />
+ <img src="https://github.com/gdubrg/POSEidon-Biwi/blob/master/Dataset/face_dataset_ae/11/frame_00003_face_gray.png" width="100" />
+ <img src="https://github.com/gdubrg/POSEidon-Biwi/blob/master/Dataset/face_dataset_OF/11/frame_00004_face_OF.png" />
+ </p>
+
 ### Train and Test
  The command to train the network is
 ```
@@ -37,6 +43,7 @@ Input cropping is done using the ground truth head position.
 | Pitch   | Roll               | Yaw              | Avg  |
 | :---:        |     :---:         |            :---: | :---:     |
 |1.6 +/- 1.7       | 1.8 +/- 1.8        | 1.7 +/- 1.5       |  1.7 +/- 1.7    |
+ 
 
 ## Note
 
